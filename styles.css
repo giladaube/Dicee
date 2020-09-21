@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  background-color: #056676;
+  color: #a3d2ca;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 8rem;
+  font-weight: 700;
+  /* adding some shadow to the text.  offset-x | offset-y | blur-radius | color */
+  text-shadow: 5px 1px black;
+}
+
+p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  text-shadow: 1px 0 black;
+}
+
+img {
+  width: 85%;
+}
+
+footer {
+  font-family: 'Indie Flower', cursive;
+}
+
+.container {
+  width: 75%;
+  padding: 4% 0;
+}
+
+.heading {
+
+}
+
+.players {
+  display: inline-block;
+  padding: 7% 0;
+}

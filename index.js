@@ -30,7 +30,7 @@ function changeDiceImage(playerNumber, diceNumber) {
 // get two random numbers.
 var randomNumber1 = getRandomNumber();
 var randomNumber2 = getRandomNumber();
-setTimeOut(1000);
+
 // change the heading.
 if (randomNumber1 > randomNumber2) {
   changeHeadingPlayerXWins(1);

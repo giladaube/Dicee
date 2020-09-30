@@ -39,3 +39,13 @@ footer {
   display: inline-block;
   padding: 7% 0;
 }
+
+@media (max-width: 800) {
+    h1 {
+      font-family: 'Lobster', cursive;
+      font-size: 5rem;
+      font-weight: 600;
+      /* adding some shadow to the text.  offset-x | offset-y | blur-radius | color */
+      text-shadow: 3px 1px black;
+  }
+}

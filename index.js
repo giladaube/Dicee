@@ -13,7 +13,7 @@ function changeHeadingPlayerXWins(playerNumber) {
   } else {
     newHead = newHead + " 🚩";
   }
-  document.querySelector(".heading h1").textContent = newHead;
+  document.querySelector(".font-heading").textContent = newHead;
 }
 
 // get a player and a dice number and change the image of the dice.
@@ -37,12 +37,9 @@ if (randomNumber1 > randomNumber2) {
 } else if (randomNumber1 < randomNumber2) {
   changeHeadingPlayerXWins(2);
 } else {
-  document.querySelector(".heading h1").textContent = "Draw!";
+  document.querySelector(".font-heading").textContent = "Draw!";
 }
 
 // change the dice images
 changeDiceImage(1, randomNumber1);
 changeDiceImage(2, randomNumber2);
-
-// document.querySelectorAll(".dice-image")
-// document.querySelectorAll(".players .dice-image")[0].setAttribute("src", "images\\dice1.png");

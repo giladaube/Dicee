@@ -40,12 +40,12 @@ footer {
   padding: 7% 0;
 }
 
-@media (max-width: 800) {
+@media (max-width: 800px) {
     h1 {
       font-family: 'Lobster', cursive;
       font-size: 5rem;
-      font-weight: 600;
+      font-weight: 700;
       /* adding some shadow to the text.  offset-x | offset-y | blur-radius | color */
-      text-shadow: 3px 1px black;
+      text-shadow: 5px 1px black;
   }
 }

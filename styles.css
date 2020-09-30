@@ -42,6 +42,7 @@ footer {
 
 @media only screen and (max-device-width: 500px) {
     .font-heading {
+      margin: 4% auto;
       font-size: 5rem;
   }
 }

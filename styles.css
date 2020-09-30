@@ -4,7 +4,7 @@ body {
   color: #a3d2ca;
 }
 
-h1 {
+.font-heading {
   font-family: 'Lobster', cursive;
   font-size: 8rem;
   font-weight: 700;
@@ -41,7 +41,7 @@ footer {
 }
 
 @media (max-width: 1200px) {
-    h1 {
+    .font-heading {
       font-size: 5rem;
   }
 }
